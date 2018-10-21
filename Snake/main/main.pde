@@ -104,10 +104,12 @@ void setup() {
     String[] score = loadStrings("High_Score.txt");
     topHS = new Integer(score[0]);
   }catch(Exception e){
-    topHS = null;
+    topHS = new Integer(0);
     println("Error: Could not loading highscore");
   };
   settings_output = createWriter("Game_State.txt");
+  score_output = createWriter("High_Score.txt");
+  
 }
 
 //Draw=====================================================
