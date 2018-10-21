@@ -6,16 +6,18 @@
 ### Run program
 navagate to the application folder corresponding to your OS
 #### Windows
-``` $ cd Snake.windows64/
-    $ ./main.exe
+```
+$ cd Snake.windows64/
+$ ./main.exe
 ```
 #### Linux
-``` $ cd Snake.linux64/
-    $ ./main
+``` 
+$ cd Snake.linux64/
+$ ./main
 ```
 
 ## Settings
 ### Pause:
 You can pause and resume the game by pressing the Space bar
 ### Setting:
-At the puse screen you can change the setting like turning off audio, changing wall collision mode and display grid.
+At the puse screen you can change the setting like turning off audio, changing wall collision mode and display grid. It will keep retain you setting changes for the next time you open the aplication.
